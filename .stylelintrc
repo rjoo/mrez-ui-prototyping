@@ -1,3 +1,10 @@
+# ==============================================================
+# @summary A mighty, modern linter that helps you avoid errors 
+# and enforce conventions in your styles.
+# @name Stylelint
+# @see https://stylelint.io/
+# @desc Quick tip: use Apache as editor language for syntax highlighting.
+# ==============================================================
 {
     "processors": [ "stylelint-processor-html" ],
     "ignoreFiles": [
