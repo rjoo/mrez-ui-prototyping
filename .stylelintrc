@@ -9,6 +9,7 @@
     "processors": [ "stylelint-processor-html" ],
     "ignoreFiles": [
         "node_modules/**/*.scss",
+        "**/*.js"
     ],
     "rules": {
         # ==============================================================
@@ -168,9 +169,9 @@
 
 
         # Always indent at-rules, rules, comments, declarations, inside 
-        # parentheses, and multi-line values by 2 spaces.
+        # parentheses, and multi-line values by 4 spaces.
         # -------------------------------------
-        "indentation": 2,
+        "indentation": 4,
 
 
         # Disallow !important within keyframe declarations.
