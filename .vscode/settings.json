@@ -39,5 +39,17 @@
     "vetur.validation.template": true,
     "vetur.format.scriptInitialIndent": true,
     "vetur.format.styleInitialIndent": true,
-
+    
+    "editor.tabSize": 4,
+    "[css]":                { "editor.tabSize": 2 },
+    "[scss]":               { "editor.tabSize": 2 },
+    "[javascript]":         { "editor.tabSize": 4 },
+    "[json]":               { "editor.tabSize": 4 },
+    "[html]":               { "editor.tabSize": 4 },
+    "[nunjucks]":           { "editor.tabSize": 4 },
+    "[plaintext]":          { "editor.tabSize": 4 },
+    "[vue]":                { "editor.tabSize": 4 },
+    "[yaml]":               { "editor.tabSize": 4 },
+    "[xml]":                { "editor.tabSize": 4 },
+    "[xsl]":                { "editor.tabSize": 4 },
 }

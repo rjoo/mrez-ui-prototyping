@@ -9,7 +9,8 @@
     "processors": [ "stylelint-processor-html" ],
     "ignoreFiles": [
         "node_modules/**/*.scss",
-        "**/*.js"
+        "**/*.js",
+        "**/*.md",
     ],
     "rules": {
         # ==============================================================

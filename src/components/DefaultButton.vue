@@ -11,7 +11,7 @@
 <script>
     import sizeMixin from './sizeMixin';
     export default {
-        name: 'AppButton',
+        name: 'DefaultButton',
         mixins: [sizeMixin],
         props: {
             /**
@@ -64,22 +64,22 @@ This button is amazing, use it responsibly.
 Orange button:
 
 ```jsx
-<AppButton color="orange">Push Me</AppButton>
+<DefaultButton color="orange">Push Me</DefaultButton>
 ```
 
 Ugly button with pink font and blue background:
 
 ```jsx
-<AppButton color="pink" background="blue">
+<DefaultButton color="pink" background="blue">
   Ugly button
-</AppButton>
+</DefaultButton>
 ```
 
 Button containing custom tags:
 
 ```jsx
-<AppButton>
+<DefaultButton>
   Text with <b>bold</b>
-</AppButton>
+</DefaultButton>
 ```
 </docs>
